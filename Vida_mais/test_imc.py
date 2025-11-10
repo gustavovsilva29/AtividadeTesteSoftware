@@ -21,16 +21,16 @@ def test_classificacao():
     assert classificar_imc(17.9) == "Abaixo do peso"
 
 def test_classificacao():
-    assert classificar_imc(22.0) == "Peso normal"
+    assert classificar_imc(22.0) == "Peso Ideal"
 
 def test_classificacao():
     assert classificar_imc(27.3) == "Sobrepeso"
 
 def test_classificacao():
-    assert classificar_imc(33.0) == "Obesidade grau I"
+    assert classificar_imc(33.0) == "Obesidade Grau I"
 
 def test_classificacao():
-    assert classificar_imc(37.0) == "Obesidade grau II"
+    assert classificar_imc(37.0) == "Obesidade Grau II"
 
 def test_classificacao():
-    assert classificar_imc(45.0) == "Obesidade grau III"
+    assert classificar_imc(45.0) == "Obesidade Grau III"
